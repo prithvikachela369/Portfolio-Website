@@ -181,7 +181,12 @@ html {
     margin-top: 1.8rem;
     flex-wrap: wrap;
 }
-
+.btn{
+    transition:transform 0.3s ease-out;
+}
+.btn:hover{
+    transform:translateY(5px);
+}
 .contact-links a {
     color: white;
     font-size: 1.6rem;
